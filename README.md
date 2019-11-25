@@ -1,2 +1,2 @@
-# ipago.io
-The complete ipago.io website
+# ipago.org
+The complete website for the ipago.org domain.
