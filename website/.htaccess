@@ -10,7 +10,8 @@ ErrorDocument 500 errorpages/500.html
 
 
 # This section should be at the end of the file because it causes the .php extention to be removed. It could have side effects if this compartment does not end.
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php [NC,L]
+RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME}\.php -f
+# RewriteRule ^(.*)$ $1.php [NC,L]
+RewriteRule ^([A-Za-z0-9-_]+)$ index.php?s=$1 [NC,L]

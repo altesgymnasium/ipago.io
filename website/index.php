@@ -11,5 +11,14 @@
 <body>
   <!--[if lt IE 7]><p>Du nutzt einen <strong>veralteten</strong> Browser. Bitte <a href="http://browsehappy.com/">nutze einen neueren Browser</a> um deine Erfahrung zu verbessern</p><![endif]-->
   
+  <?php
+    if($_GET){
+      $site = $_GET['s'];
+
+      include 'php/'.$site.'.php';
+    } else {
+
+    }
+  ?>
 </body>
 </html>
