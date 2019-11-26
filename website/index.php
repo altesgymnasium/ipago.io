@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!--[if lt IE 7]><p>Du nutzt einen <strong>veralteten</strong> Browser. Bitte <a href="http://browsehappy.com/">nutze einen neueren Browser</a> um deine Erfahrung zu verbessern</p><![endif]-->
+  <!--[if lt IE 7]><p>Du nutzt einen <strong>veralteten</strong> Browser. Bitte <a href="http://browsehappy.com/">nutze einen neueren Browser</a>, um deine Erfahrung zu verbessern</p><![endif]-->
   
   <?php
     if($_GET){
